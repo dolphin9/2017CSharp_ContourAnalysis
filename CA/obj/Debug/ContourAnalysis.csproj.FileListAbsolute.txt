@@ -1,0 +1,5 @@
+F:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\CA\bin\Debug\ContourAnalysis.dll
+F:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\CA\bin\Debug\ContourAnalysis.pdb
+F:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\CA\obj\Debug\ContourAnalysis.csprojResolveAssemblyReference.cache
+F:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\CA\obj\Debug\ContourAnalysis.dll
+F:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\CA\obj\Debug\ContourAnalysis.pdb
