@@ -21,7 +21,6 @@
 >3.	Initial filtration of contours on perimeter, squares, to a crest factor, fractality and so on
 >4.	Coercion of contours to uniform length, smoothing
 >5.	Search of all discovered contours, searching of the template maximum similar to the given contour
-
 >##### ContourAnalysis Library
 >The library includes two projects. The first project <b> ContourAnalysis</b> - implements base functions of the contour analysis - creation of contours, a scalar product of contours, equalization, evaluation ICF and ACF, comparing and searching of templates.
 >
@@ -46,7 +45,6 @@
 >
 >+ The static class <b>TemplateGenerator</b> is used for automatic generation of templates of numerals of a certain font.
 >
-
 >Except two library projects, there is a demo-example showing operation of library with the webcam. The demo contains tools for creation and editing of templates, recognition tuning, and allows to produce recognition of contours from the webcam, and also allows to create the augmented reality.
 
 
