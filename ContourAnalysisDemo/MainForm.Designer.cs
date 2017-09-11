@@ -595,7 +595,7 @@
             this.btNewTemplates.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btNewTemplates.Name = "btNewTemplates";
             this.btNewTemplates.Size = new System.Drawing.Size(23, 22);
-            this.btNewTemplates.Text = "新模板";
+            this.btNewTemplates.Text = "新建轮廓库";
             this.btNewTemplates.Click += new System.EventHandler(this.btNewTemplates_Click);
             // 
             // btOpenTemplates
@@ -605,7 +605,7 @@
             this.btOpenTemplates.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btOpenTemplates.Name = "btOpenTemplates";
             this.btOpenTemplates.Size = new System.Drawing.Size(23, 22);
-            this.btOpenTemplates.Text = "打开模板";
+            this.btOpenTemplates.Text = "打开轮廓库";
             this.btOpenTemplates.Click += new System.EventHandler(this.btOpenTemplates_Click);
             // 
             // btSaveTemplates
@@ -615,7 +615,7 @@
             this.btSaveTemplates.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btSaveTemplates.Name = "btSaveTemplates";
             this.btSaveTemplates.Size = new System.Drawing.Size(23, 22);
-            this.btSaveTemplates.Text = "保存模板";
+            this.btSaveTemplates.Text = "保存轮廓库";
             this.btSaveTemplates.Click += new System.EventHandler(this.btSaveTemplates_Click);
             // 
             // toolStripSeparator
@@ -630,7 +630,7 @@
             this.btCreateTemplate.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btCreateTemplate.Name = "btCreateTemplate";
             this.btCreateTemplate.Size = new System.Drawing.Size(23, 22);
-            this.btCreateTemplate.Text = "创建模板";
+            this.btCreateTemplate.Text = "创建轮廓";
             this.btCreateTemplate.Click += new System.EventHandler(this.btCreateTemplate_Click);
             // 
             // btAutoGenerate
@@ -640,7 +640,7 @@
             this.btAutoGenerate.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btAutoGenerate.Name = "btAutoGenerate";
             this.btAutoGenerate.Size = new System.Drawing.Size(23, 22);
-            this.btAutoGenerate.Text = "自动生成模板";
+            this.btAutoGenerate.Text = "自动生成轮廓";
             this.btAutoGenerate.Click += new System.EventHandler(this.btAutoGenerate_Click);
             // 
             // btTemplateEditor
@@ -651,6 +651,7 @@
             this.btTemplateEditor.Name = "btTemplateEditor";
             this.btTemplateEditor.Size = new System.Drawing.Size(23, 22);
             this.btTemplateEditor.Text = "模板浏览";
+            this.btTemplateEditor.ToolTipText = "轮廓浏览";
             this.btTemplateEditor.Click += new System.EventHandler(this.btTemplateEditor_Click);
             // 
             // MainForm

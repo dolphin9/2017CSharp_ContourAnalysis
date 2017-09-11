@@ -51,6 +51,8 @@ namespace ContourAnalysisDemo
             ApplySettings();
             //
             Application.Idle += new EventHandler(Application_Idle);
+            Tips f2 = new Tips();
+            f2.Show();
         }
 
         private void LoadTemplates(string fileName)
@@ -131,7 +133,7 @@ namespace ContourAnalysisDemo
                 Console.WriteLine(ex.Message);
             }
         }
-
+      
         private void tmUpdateState_Tick(object sender, EventArgs e)
         {
             lbFPS.Text = (frameCount - oldFrameCount) + " fps";

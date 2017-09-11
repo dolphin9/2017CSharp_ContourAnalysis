@@ -118,7 +118,7 @@
             this.Controls.Add(this.tbTemplateName);
             this.Controls.Add(this.dgvContours);
             this.Name = "ShowContoursForm";
-            this.Text = "创建模板";
+            this.Text = "创建轮廓";
             ((System.ComponentModel.ISupportInitialize)(this.dgvContours)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

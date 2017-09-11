@@ -81,7 +81,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 1;
-            this.label1.Text = "模板";
+            this.label1.Text = "轮廓";
             // 
             // cbPreferredAngle
             // 
@@ -100,7 +100,7 @@
             this.btDelete.Name = "btDelete";
             this.btDelete.Size = new System.Drawing.Size(99, 21);
             this.btDelete.TabIndex = 4;
-            this.btDelete.Text = "删除模板";
+            this.btDelete.Text = "删除轮廓";
             this.btDelete.UseVisualStyleBackColor = true;
             this.btDelete.Click += new System.EventHandler(this.btDelete_Click);
             // 
@@ -116,7 +116,7 @@
             this.DoubleBuffered = true;
             this.MinimumSize = new System.Drawing.Size(606, 297);
             this.Name = "TemplateEditor";
-            this.Text = "模板编辑器";
+            this.Text = "轮廓编辑器";
             ((System.ComponentModel.ISupportInitialize)(this.dgvTemplates)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

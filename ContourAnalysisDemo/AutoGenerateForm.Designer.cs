@@ -77,7 +77,7 @@
             this.btGenerate.Name = "btGenerate";
             this.btGenerate.Size = new System.Drawing.Size(103, 21);
             this.btGenerate.TabIndex = 5;
-            this.btGenerate.Text = "生成模板";
+            this.btGenerate.Text = "生成轮廓";
             this.btGenerate.UseVisualStyleBackColor = true;
             this.btGenerate.Click += new System.EventHandler(this.btGenerate_Click);
             // 
@@ -123,7 +123,7 @@
             this.Controls.Add(this.tbFont);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AutoGenerateForm";
-            this.Text = "生成模板";
+            this.Text = "生成轮廓";
             this.ResumeLayout(false);
             this.PerformLayout();
 
