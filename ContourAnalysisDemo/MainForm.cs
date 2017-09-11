@@ -311,8 +311,8 @@ namespace ContourAnalysisDemo
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            Tips f2 = new Tips();
-            f2.Show();
+            Tips f1 = new Tips();
+            f1.Show();
         }
     }
 }
