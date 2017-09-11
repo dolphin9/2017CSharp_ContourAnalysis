@@ -42,12 +42,13 @@ namespace ContourAnalysisDemo
 
         private void AboutUs_Click(object sender, EventArgs e)
         {
-
+            AboutBox1 f1 = new AboutBox1();
+            f1.Show();
         }
 
         private void IKnow_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

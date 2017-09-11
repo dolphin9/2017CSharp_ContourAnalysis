@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("CAprocessing")]
-[assembly: AssemblyDescription("Contour analysis library")]
+[assembly: AssemblyTitle("C# Homework")]
+[assembly: AssemblyDescription("Contour Analysis")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Pavel Torgashov")]
-[assembly: AssemblyProduct("CAprocessing")]
-[assembly: AssemblyCopyright("© Pavel Torgashov , 2011, pavel_torgashov@mail.ru.")]
+[assembly: AssemblyCompany("Zhejiang University")]
+[assembly: AssemblyProduct("C# Course by Jijun Li")]
+[assembly: AssemblyCopyright("© Hongyu Chen , 2017, 3130000240@zju.edu.cn")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

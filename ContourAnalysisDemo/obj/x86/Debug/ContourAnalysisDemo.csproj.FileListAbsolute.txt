@@ -61,3 +61,4 @@ E:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\ContourAnal
 E:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\ContourAnalysisDemo\bin\Debug\2.rtf
 E:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\ContourAnalysisDemo\bin\Debug\3.rtf
 E:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\ContourAnalysisDemo\bin\Debug\4.rtf
+E:\陈泓宇\学校\课程\1734C#\c#课件\大作业\ContourAnalysis\ContourAnalysisDemo\obj\x86\Debug\ContourAnalysisDemo.AboutBox1.resources

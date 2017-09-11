@@ -39,25 +39,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 24);
+            this.label1.Font = new System.Drawing.Font("黑体", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(34, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 12);
+            this.label1.Size = new System.Drawing.Size(153, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "你知道吗?";
             // 
             // richTextBox1
             // 
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox1.Location = new System.Drawing.Point(29, 56);
+            this.richTextBox1.Location = new System.Drawing.Point(39, 100);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(393, 207);
+            this.richTextBox1.Size = new System.Drawing.Size(465, 242);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
             // LastPage
             // 
-            this.LastPage.Location = new System.Drawing.Point(129, 269);
+            this.LastPage.Location = new System.Drawing.Point(163, 369);
             this.LastPage.Name = "LastPage";
             this.LastPage.Size = new System.Drawing.Size(75, 23);
             this.LastPage.TabIndex = 2;
@@ -67,7 +68,7 @@
             // 
             // NextPage
             // 
-            this.NextPage.Location = new System.Drawing.Point(247, 269);
+            this.NextPage.Location = new System.Drawing.Point(303, 369);
             this.NextPage.Name = "NextPage";
             this.NextPage.Size = new System.Drawing.Size(75, 23);
             this.NextPage.TabIndex = 3;
@@ -77,7 +78,7 @@
             // 
             // AboutUs
             // 
-            this.AboutUs.Location = new System.Drawing.Point(29, 321);
+            this.AboutUs.Location = new System.Drawing.Point(39, 400);
             this.AboutUs.Name = "AboutUs";
             this.AboutUs.Size = new System.Drawing.Size(75, 23);
             this.AboutUs.TabIndex = 4;
@@ -87,7 +88,7 @@
             // 
             // IKnow
             // 
-            this.IKnow.Location = new System.Drawing.Point(347, 321);
+            this.IKnow.Location = new System.Drawing.Point(429, 391);
             this.IKnow.Name = "IKnow";
             this.IKnow.Size = new System.Drawing.Size(75, 23);
             this.IKnow.TabIndex = 5;
@@ -99,7 +100,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(456, 356);
+            this.ClientSize = new System.Drawing.Size(544, 437);
             this.Controls.Add(this.IKnow);
             this.Controls.Add(this.AboutUs);
             this.Controls.Add(this.NextPage);
@@ -108,6 +109,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Tips";
             this.Text = "小贴士";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

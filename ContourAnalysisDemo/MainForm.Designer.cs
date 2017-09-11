@@ -74,6 +74,8 @@
             this.btCreateTemplate = new System.Windows.Forms.ToolStripButton();
             this.btAutoGenerate = new System.Windows.Forms.ToolStripButton();
             this.btTemplateEditor = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.ibMain)).BeginInit();
             this.pnSettings.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -581,7 +583,9 @@
             this.toolStripSeparator,
             this.btCreateTemplate,
             this.btAutoGenerate,
-            this.btTemplateEditor});
+            this.btTemplateEditor,
+            this.toolStripSeparator1,
+            this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(736, 25);
@@ -654,6 +658,21 @@
             this.btTemplateEditor.ToolTipText = "轮廓浏览";
             this.btTemplateEditor.Click += new System.EventHandler(this.btTemplateEditor_Click);
             // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton1.Text = "显示tips";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -665,7 +684,7 @@
             this.Controls.Add(this.ssMain);
             this.Controls.Add(this.toolStrip1);
             this.Name = "MainForm";
-            this.Text = "2017C# 大作业轮廓分析（CA）";
+            this.Text = "2017C# 大作业  Contour Analysis";
             ((System.ComponentModel.ISupportInitialize)(this.ibMain)).EndInit();
             this.pnSettings.ResumeLayout(false);
             this.pnSettings.PerformLayout();
@@ -737,6 +756,8 @@
         private System.Windows.Forms.ToolStripButton btAutoGenerate;
         private System.Windows.Forms.CheckBox cbShowBinarized;
         private System.Windows.Forms.CheckBox cbAdaptiveNoiseFilter;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
     }
 }
 

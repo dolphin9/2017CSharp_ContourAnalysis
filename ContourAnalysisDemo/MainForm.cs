@@ -308,5 +308,11 @@ namespace ContourAnalysisDemo
         {
 
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            Tips f2 = new Tips();
+            f2.Show();
+        }
     }
 }
