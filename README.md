@@ -1,12 +1,11 @@
 # Contour Analysis
 ### 2017 summer term  C# Homework
 
-&copy; dolphin9
+&copy; dolphin9  11th Sep. 2017
 
 ####  Some Materials About CA
-
 > ##### What is Necessary for the Contour Analysis
- The CA allows to describe, store, compare and find the objects presented in the form of the exterior outlines - contours.
+> The CA allows to describe, store, compare and find the objects presented in the form of the exterior outlines - contours.
 >
 >CA allows to effectively solve the main problems of a pattern recognition - transposition, turn and a rescaling of the image of object. CA methods are invariant to these transformations.
 > ##### The Main Concepts
