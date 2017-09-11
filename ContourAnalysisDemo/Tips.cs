@@ -20,10 +20,6 @@ namespace ContourAnalysisDemo
         public Tips()
         {
             InitializeComponent();
-            //System.Reflection.Assembly app = System.Reflection.Assembly.GetExecutingAssembly();
-
-            //string[] xx = app.GetManifestResourceNames();
-            //System.IO.FileStream aa = app.GetFile("你的文本文件的名字");
             richTextBox1.LoadFile(RTFAddr[RichTextBoxPage], RichTextBoxStreamType.RichText);
 
         }
