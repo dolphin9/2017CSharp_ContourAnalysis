@@ -30,7 +30,7 @@
 >+ Class <b>TemplateFinder</b> implements fast searching of a template for the given contour. Outcome of operation of this class is <b>FoundTemplateDesc</b> which contains an initial contour, and the template discovered for the given contour.
 >+ Besides, <b>FoundTemplateDesc</b> contains similarity rate, angle of rotation and a scale of a contour, relative to a template.
 >
-The second project - <b>ContourAnalysisProcessing</b> - contains methods for preliminary handling of the image, selection of contours, their filtrations and a recognition. Also, it contains tools for automatic generation of templates for recognition of printing symbols.
+> The second project - <b>ContourAnalysisProcessing</b> - contains methods for preliminary handling of the image, selection of contours, their filtrations and a recognition. Also, it contains tools for automatic generation of templates for recognition of printing symbols.
 >
 > Project <b>ContourAnalysisProcessing</b> uses library OpenCV (EmguCV .NET wrapper) for operation with the image.
 >+ The class <b>ImageProcessor</b> is used for image handling. It, also, stores base of templates.
